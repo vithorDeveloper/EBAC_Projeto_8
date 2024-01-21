@@ -1,0 +1,16 @@
+{
+  "name": "projeto",
+  "version": "1.0.0",
+  "description": "projeto de landpage com tema aniversário",
+  "scripts": {
+    "dev": "parcel index.html ./src/styles/style.scss ./src/scripts/script.js",
+    "build": "parcel build index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vithor",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.11.0",
+    "parcel": "^2.11.0"
+  }
+}
